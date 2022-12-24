@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 4% 63px 4%;
+}
+
+.header__logo {
+    width: 61px;
+    height: 19px;
+}
+
+.header__list {
+    display: flex;
+    gap: 67px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
