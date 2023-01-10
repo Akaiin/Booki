@@ -20,8 +20,12 @@
             <img src="images/logo/Booki.png" alt="logo booki" class="header__logo" />
             <nav class="header__nav">
                 <ul class="header__nav__links">
-                    <li><a href="#lodging" class="header__nav__link">Hébergements</a></li>
-                    <li><a href="#activity" class="header__nav__link">Activités</a></li>
+                    <li class="header__nav__list-item">
+                        <a href="#lodging" class="header__nav__link">Hébergements</a>
+                    </li>
+                    <li class="header__nav__list-item">
+                        <a href="#activity" class="header__nav__link">Activités</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -37,7 +41,10 @@
                         id="search-form"
                         placeholder="Marseille, France"
                     />
-                    <button type="submit" class="search__form__btn btn">Rechercher</button>
+                    <button type="submit" class="search__form__btn btn">
+                        <i class="fa-solid fa-magnifying-glass search__icon"></i>
+                        <span class="search__btn__text">Rechercher</span>
+                    </button>
                 </form>
                 <div class="filters">
                     <h2 class="filters__title">Filtres</h2>
@@ -202,7 +209,7 @@
                 </div>
                 <aside class="popular">
                     <div class="popular__title">
-                        <h2 class="lodging__title">Les plus populaires</h2>
+                        <h2 class="lodging__title lodging__popular__title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line popular__icon--blue"></i>
                     </div>
                     <div class="popular__cards-container">
