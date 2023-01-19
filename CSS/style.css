@@ -33,17 +33,17 @@ a {
 }
 
 .header__logo {
-    margin-top: 21px;
     width: 61px;
     height: 19px;
+    margin-top: 21px;
 }
 
 .header__nav__links {
     display: flex;
-    font-weight: 500;
-    font-size: 16px;
     justify-content: space-between;
     gap: 20px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .header__nav__list-item {
@@ -62,18 +62,18 @@ a {
 
 
 .search__title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
     margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .search__subtitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    font-style: normal;
     margin-bottom: 20px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 .search__form {
@@ -94,13 +94,13 @@ a {
 }
 
 .search__form__input {
+    width: 234px;
+    height: 50px;
     padding: 17px;
     border: 1px solid #F2F2F2;
     outline: none;
-    width: 234px;
-    height: 50px;
-    font-weight: 700;
     font-size: 18px;
+    font-weight: 700;
     line-height: 21px;
 }
 
@@ -109,12 +109,12 @@ a {
 }
 
 .search__icon {
-    display:none;
+    display: none;
 }
 
 .btn {
-    cursor: pointer;
     height: 50px;
+    cursor: pointer;
     font-weight: 700;
 }
 
@@ -192,9 +192,8 @@ a {
 .lodging__section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
+    gap: 40px;
+    margin: 0px 20px 60px 20px;
     height: 626px;
 }
 
@@ -341,7 +340,7 @@ a {
     width: 160px;
 }
 
-.popular__card__title--size {
+.card__title--small {
     width: 169px;
 }
 
@@ -414,9 +413,8 @@ a {
 @media screen and (max-width: 1324px) {
 
     .lodging__section {
-        display: block;
+        flex-direction: column;
         height: auto;
-        width: auto;
     }
 
     .lodging__left-container {
@@ -532,10 +530,6 @@ a {
 
 @media screen and (max-width: 1155px ) {
 
-    .activity__section {
-        margin-bottom: 70px;
-    }
-
     .activity__card {
         width: 200px;
         height: 350px;
@@ -554,21 +548,6 @@ a {
 
 @media screen and (max-width: 1040px) {
 
-    .lodging__left-container {
-        width: auto;
-    }
-
-    .popular {
-        width: auto;
-        height: 278px;
-    }
-
-    .popular__cards-container {
-        display: flex;
-        justify-content: space-between;
-        height: 139px;
-    }
-
     .popular__card__link {
         min-width: 250px;
         width: 252px;
@@ -584,7 +563,7 @@ a {
         width: 104px;
     }
 
-    .popular__card__title--size {
+    .card__title--small {
         width: 111px;
     }
 
@@ -603,7 +582,6 @@ a {
     }
 
     .lodging__section {
-        display: block;
         height: 960px;
     }
 
@@ -620,13 +598,12 @@ a {
         width: 246px;
     }
 
-    .activity__section {
-        width: auto;
-        margin-bottom: 70px;
-    }
-
     .activity__title {
         margin-bottom: 28px;
+    }
+
+    .card__title--small {
+        width: auto;
     }
 
     .activity__card {
@@ -658,20 +635,13 @@ a {
 @media screen and (max-width:973px) {
 
     .lodging__section {
-        display: flex;
-        flex-direction: column;
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 105px;
     }
 
      .lodging__left-container {
         width: 100%;
         height: 850px;
-    }
-
-    .lodging__cards-container {
-        height: auto;
-        margin-bottom: 20px;
     }
 
     .lodging__card {
@@ -691,7 +661,6 @@ a {
     }
 
     .popular {
-        margin-bottom: 70px;
         height: 630px;
     }
 
